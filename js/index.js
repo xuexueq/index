@@ -13,4 +13,12 @@ var mySwiper = new Swiper ('.swiper-container', {
       message.siblings().removeClass('message-active')
     }
     
-  })       
+  })
+
+$('.msg-todo-num').each(function(index,item){
+  var msgNum=$(item).parent().attr('data-msg-num');
+  if(msgNum>999){
+    msgNum='999+'
+  }
+  $(item).text(msgNum)
+})

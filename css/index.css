@@ -146,14 +146,38 @@ html,body,oa{
 	font-size: 14px;
 	color: #191D21;
 	font-weight: 600;
+	box-sizing: border-box;
+}
+.oa-content-right .message-name  .msg-todo-num{
+	font-size: 12px;
+	background-color: #FF4611;
+	margin-left: 10px;
+	color: #fff;
+	padding: 2px 4px;
 }
 .message-name a{
 	width: 100%;
 	height: 100%;
 	display: block;
-	text-indent: 20px;
 	padding: 15px 0;
+	position: relative;
 }
+.message-name a:before, .message-name a:after{
+	content: " ";
+	position: absolute;
+	top: 18px;
+	right: 5px;
+	width: 0;
+	height: 0;
+	border-width: 6px 6px;
+	border-style: solid;
+	border-color: transparent transparent transparent #ccc;
+}
+.message-name a:after{
+	right: 8px;
+	border-color: transparent transparent transparent #fff;
+}
+
 
 .oa-content-left .category-items {
 	flex: 1;
