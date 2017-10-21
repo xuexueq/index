@@ -94,8 +94,11 @@ html,body,oa{
     margin-left: 15px;
 }
 
-.oa-header-pic img {
+.swiper-container {
 	height: 400px;
+}
+
+.swiper-container img {
 	width: 100%;
 }
 
