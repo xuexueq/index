@@ -65,22 +65,16 @@ html,body,oa{
 
 .oa-header-icon ul {
 	height: 72px;
+	display: flex;
 }
 
 .oa-header-icon li {
 	height: 72px;
 	line-height: 72px;
-	float: left;
-	text-align: center;
-	padding: 0 10px;
-	margin-left: 15px;
-}
-
-.oa-header-icon li img {
-	position: absolute; 
-    top: 0; 
-    bottom: 0;
-    margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 16px;
 }
 
 .oa-header-icon #btn {
@@ -91,7 +85,6 @@ html,body,oa{
 	outline: none;
     border: none;
     margin-right: 10px;
-    margin-left: 15px;
 }
 
 .swiper-container {
@@ -117,7 +110,6 @@ html,body,oa{
 	overflow: hidden;
 	background: #FFFFFF;
 	margin: 15px;
-	height: 504px;	
 	box-sizing: border-box;
 }
 
@@ -144,7 +136,6 @@ html,body,oa{
 
 .oa-content-left .category {
 	display: flex;
-	height: 100px;
 	border-bottom: 1px solid #CCC;
 }
 
@@ -170,11 +161,29 @@ html,body,oa{
 	line-height: 50px;
 }
 
+.oa-content-left a {
+	font-family: HiraginoSansGB-W3;
+	font-size: 13px;
+	color: #585C64;
+	line-height: 20px;	
+}
+
+.oa-content-right a {
+	font-family: HiraginoSansGB-W6;
+	font-size: 14px;
+	color: #191D21;
+	line-height: 20px;
+}
+
+.oa-content-left .category-items a:hover {
+	background-color: #ccc;
+}
+
 .oa-content-right .message-name {
 	width: 100%;
 
 }
 
-.oa-content-right .message-task .todo {
-		background-color: pink;
+.message-active{
+	background-color: pink;
 }
