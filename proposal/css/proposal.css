@@ -1,0 +1,219 @@
+*,*:before,*:after{
+	margin:0;
+	padding:0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 13px;
+    line-height: 24px;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', sans-serif;
+    color: #666;
+    overflow-x: hidden;
+}
+
+.nav-container {
+	max-width: 100%;
+	position: absolute;
+	top: 0;
+    z-index: 999;
+    left: 0;
+    right: 0;
+}
+
+.nav-bar {
+    height: 55px;
+    max-height: 55px;
+    line-height: 53px;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav-bar-left {
+	float: left;
+	height: 55px;
+	display: inline-block;
+	padding: 0 32px;
+}
+
+.nav-bar-left .logo {
+    max-height: 60%;
+}
+
+.nav-bar-left img {
+	vertical-align: middle;
+}
+ 
+.nav-bar-right {
+	height: 55px;
+	display: inline-block;
+	float: right;
+	padding: 0 32px;
+}
+
+.nav-bar-right .items {
+	display: inline-block;	
+}
+
+.nav-bar-right .menu {
+	width: 100%;
+    height: 55px;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', sans-serif;
+}
+
+.nav-bar-right .menu > li {
+    margin-right: 32px;
+    float: left;
+}
+
+.nav-bar-right .menu > li:last-child {
+    margin-right: 0;
+}
+
+.menu li a {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #262930;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    max-width: 100%;
+    white-space: normal;
+    display: inline-block;
+    height: 55px;
+}
+
+.body-container {
+	height: 100%;
+	width: 100%;
+}
+
+section, footer {
+/* 	width: 100%;
+height: 100%; */
+    padding: 96px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.body-container .content {
+	max-width: 1170px;
+	margin-right: auto;
+    margin-left: auto;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.body-container .row {
+	max-width: 945px;
+	margin: 0 auto;
+	border-bottom: 1px solid #CCC;
+}
+
+..body-container .content-title {
+	margin-bottom: 20px;
+}
+
+.body-container h3 {
+    font-size: 32px;
+    line-height: 40px;
+    color: #262930;
+    font-weight: 300;
+    margin-bottom: 24px;
+    margin-top: 0;
+    padding: 0;
+}
+
+.content-meta {
+	display: inline-block;
+	margin-bottom: 12px;
+    margin-left: 0;
+}
+
+.content-meta span {
+	margin-right: 24px;
+}
+
+.content-meta a {
+	font-weight: 600;
+    color: #f05b48;
+}
+
+.content p {
+	font-size: 15px;
+    line-height: 1.7;
+    font-weight: 400;
+    margin-bottom: 24px;
+    margin-top: 0;
+    padding: 0;
+}
+
+.content figure {
+	width: 750px;
+	max-width: 100%;
+	margin-top: 80px;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5em;
+}
+
+.content figure img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.content figure .img-text {
+	margin: 0.8075em 0;
+	text-align: center;
+}
+
+footer {
+	background: #f05b48;
+	padding: 72px 0;
+}
+
+.footer-container {
+	width: 750px;
+	margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-container .logo {
+	text-align: center;	
+}
+
+.footer-container .logo img {
+	max-height: 120px;
+
+}
+
+.footer-container .logo .iconfont {
+    color: #feb3b3;
+    font-size: 22px;
+}
+
+.footer-container .logo .icon-wechat:before {
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.footer-container .logo .share {
+    margin-top: 20px;
+}
+
+.footer-container .contact {
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-between;
+    align-items: center;
+    color: #feb3b3;
+}

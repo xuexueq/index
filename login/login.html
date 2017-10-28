@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>摩拜单车</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="css/login.css">
+	<link rel="stylesheet" href="vendor/jquery.webui-popover.min.css">
+	<link rel="stylesheet" href="https://at.alicdn.com/t/font_448483_v83rvp4s85cj714i.css">
+</head>
+<body>
+	<div class="oa">
+		<div class="oa-header">
+			<div class="container">
+				<img id="logo" src="images/logo.png" alt="mobike">
+				<div class="oa-header-icon">
+					<ul>
+						<li>
+							<a href="#"><img src="images/Rectangle Copy 2.png"></a>
+						</li>
+						<!-- <li><img src="images/Rectangle Copy 13.png"></li> -->
+						<li>
+							<a href="#"><img src="images/img.png"></a>
+						</li>
+						<!-- <li><button id="btn">退出</button></li> -->
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="oa-body">
+			<div class="Modal">
+				<div class="Heading">
+					登录
+					<a href="#"><img class="help" src="images/Rectangle Copy 13.png"></a>
+				</div>
+				<div class="language">
+					<div class="lg-select">
+						<span class="lg-place">语言</span>
+						<span class="triangle"></span>
+					</div>
+					<div class="lg-items">
+						<p class="lg-item active">
+							<span class="iconfont icon-correct"></span>
+							中文</p>
+						<p class="lg-item"><span class="iconfont icon-correct"></span>
+							英文</p>
+					</div>
+				</div>
+				<form class="form">
+						<div class="name">用户名</div>
+						<div class="login-input"><input  name="username" type="text"></div>
+						<div class="name">密码</div>
+						<div class="login-input">
+							<input  name="password" type="password">
+							<span class="showError">格式错误</span>
+						</div>
+						<button class="login-btn" type="submit">登录</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="vendor/jquery-3.2.1.min.js"></script>
+<script src="vendor/jquery.webui-popover.min.js"></script>
+<script src="js/login.js"></script>
+</html>

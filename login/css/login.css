@@ -1,0 +1,202 @@
+*,*:before,*:after{
+	margin:0;
+	padding:0;
+}
+
+html, body {
+    font: 12px/1.5 tahoma,arial,"Hiragino Sans GB",\5b8b\4f53;
+    margin: 0;
+    padding: 0;
+    background: url('../images/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    /* IE6-9 */
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg.jpg', sizingMethod=scale);
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/bg.jpg', sizingMethod=scale);
+}
+html,body,oa{
+	height: 100%;
+	min-height: 100%;
+}
+
+.oa {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.oa-header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 72px;
+	background: #FFFFFF;
+}
+
+.oa-header .container {
+	height: 72px;
+	line-height: 72px;
+}
+
+.oa-header #logo {
+	margin-left: 48px;
+	margin-top: 24px;
+}
+
+.oa-body {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Modal {
+	overflow: hidden;
+	box-sizing:border-box;
+	background: #FFFFFF;
+	box-shadow: 0 32px 64px 0 rgba(25,29,33,0.25);
+	border-radius: 12px;
+	width: 432px;
+	height: 432px;
+	padding: 45px;
+	font-family: HiraginoSansGB-W6;
+}
+.Modal .Heading {
+	height: 41px;
+	font-size: 24px;
+	color: #191D21;
+	line-height: 28px;
+	position: relative;
+}
+.Heading .help{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.Modal .language {
+	font-size: 13px;
+	color: #585C64;
+	line-height: 20px;
+	position: relative;
+	cursor: pointer;
+} 
+
+.Modal .lg-items{
+	display: none;
+}
+
+.lg-items .active{
+	color: #000000;
+}
+.lg-item .iconfont{
+	font-size: 12px;
+	color: #0C8CF6;
+	margin-right: 11px;
+	opacity: 0;
+}
+.active .iconfont{
+	opacity: 1;
+}
+.triangle{
+	content: "";
+	position: relative;
+	display: inline-block;
+	top: 3px;
+	left: 13px;
+	width: 0;
+	height: 0;
+	border-width: 6px 5px;
+	border-style: solid;
+	border-color: #585C64 transparent transparent transparent;
+}
+
+.webui-popover-content .lg-items{
+	line-height: 32px;
+	padding: 8px 0;
+	padding-left: 12px;
+	box-sizing: border-box;
+}
+
+.oa-header-icon {
+	display: inline-block;
+    float: right;
+}
+
+.oa-header-icon ul {
+	height: 72px;
+	display: flex;
+}
+
+.oa-header-icon li a {
+	height: 72px;
+	line-height: 72px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 16px;
+}
+
+
+.oa-header-icon #btn {
+	width: 84px;
+	height: 40px;
+	background: #FF4611;
+	border-radius: 6px;
+	outline: none;
+    border: none;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.oa-header-icon ul {
+    list-style: none;
+}
+
+.oa-body .name {
+	margin-top: 15px;
+	font-family: HiraginoSansGB-W3;
+	font-size: 11px;
+	color: #B9BBBE;
+	line-height: 20px;
+}
+
+.oa-body .login-input {
+	border-bottom: 1px solid #343D4A;
+	position: relative;
+}
+
+.login-input .showError{
+	color: #F33654 ;
+	font-size: 13px;
+	font-family: HiraginoSansGB-W3;
+	position: absolute;
+	top: 0;
+	right: 0;
+	line-height: 40px;
+	display: none;
+}
+
+.oa-body input {
+	outline:none;
+	border: none;
+	width: 352px;
+	height: 40px;
+}
+
+button.login-btn  {
+	cursor: pointer;
+	background-color: #FF4611;
+	border:none;
+	width: 100%;
+	height: 40px;
+	outline:none;
+	margin-top: 50px;
+	border-radius: 6px;
+	font-family: HiraginoSansGB-W6;
+	font-size: 14px;
+	color: #FFFFFF;
+}
